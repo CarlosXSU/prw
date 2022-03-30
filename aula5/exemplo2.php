@@ -4,8 +4,8 @@
 
    switch($op){
        case 'a' : echo "Abrir"; break;
-       case 'b' : echo "Fechar"; break;
-       case 'c' : echo "Salvar"; break;
+       case 'x' : echo "Fechar"; break;
+       case 'y' : echo "Salvar"; break;
        default : echo "Sair"; break;
    }
 
