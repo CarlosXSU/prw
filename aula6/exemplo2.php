@@ -1,5 +1,6 @@
 <?php
 
+    //exemplos
     $palavra="Ciência da Computação    ";
     echo "A variável contém: " . strlen($palavra) . " caracteres" . "<br>";
 
