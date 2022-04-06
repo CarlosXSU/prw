@@ -1,5 +1,6 @@
 <?php
 
+    //sorriso
     $palavra = "Carlos";
     
     $novaPal = str_replace('a', 'x', $palavra);
