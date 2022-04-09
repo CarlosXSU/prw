@@ -6,4 +6,5 @@
     $ano = substr($data, 6,4);
     $novaData = "Dia: ". $dia. ", mês: ". $mes. ", ano: ". $ano;
     echo $novaData;
+    
 ?>
