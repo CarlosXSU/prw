@@ -2,7 +2,8 @@
 
     //sorriso
     $palavra = "Carlos";
-    
+    echo "Palavra sem modificações: ". $palavra. "<br>";
+
     $novaPal = str_replace('a', 'x', $palavra);
     $novaPal = str_replace('e', 'x', $novaPal);
     $novaPal = str_replace('i', 'x', $novaPal);
@@ -15,5 +16,6 @@
     $novaPal = str_replace('O', 'X', $novaPal);
     $novaPal = str_replace('U', 'X', $novaPal);
 
-    echo $novaPal;
+    echo "Palavra após susbstituir todas as vogais por X: ". $novaPal;
+
 ?>
