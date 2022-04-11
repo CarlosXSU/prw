@@ -1,6 +1,6 @@
 <?php
 
-    $opc = $_POST['opc'];
+    $opc = $_POST['opt'];
     $n1 = $_POST['N1'];
     $n2 = $_POST['N2'];
 
