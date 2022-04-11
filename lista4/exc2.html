@@ -2,27 +2,34 @@
 <html lang="pt-br">
 
     <head>
-        <title>Calculadora</title>
+        <title>Exc2 cheio de coisas</title>
         <meta charset="utf-8">
     </head>
 
     <body>
-        <h1> Escolha a opção desejada!</h1>
+        <h1>Preencha os dados a seguir!</h1>
 
         <form method="post" action="exc2.php">
-            Digite qualquer parada aqui: <input type="text" value="Lorem Ipsum" size="30" name="txtText"> <br>
-            Aqui sim você pode digitar muitas paradas: <textarea name="txtTextArea" value="Sou o texto padrão daqui. hehe" cols="33" rows="5" maxlength="100"></textarea> <br><br>
+            Digite qualquer parada aqui: <input type="text" value="Lorem Ipsum" size="30" name="txtText"> <br><br>
+            Aqui sim você pode digitar muitas paradas: <br><textarea name="txtTextArea" value="Sou o texto padrão daqui. hehe" cols="33" rows="5" maxlength="100"></textarea> <br><br>
 
-            <h1> Você prefere o número (pode selecionar os 2 se quiser):</h1><br>
-            <input type="checkbox" name="chkBox" value="1"> 1 ou 
-            <input type="checkbox" name="chkBox" value="2"> 2 <br><br>
+            <h1> Você gosta do número (pode selecionar os 2 se quiser):</h1><br>
+            <input type="checkbox" name="chkBox" value="Você gosta do um!"> 1 
+            <input type="checkbox" name="chkBox2" value="Você gosta do dois!"> 2 <br><br>
 
-            <h1>Você é:</h1><br>
-            <input type="radio" name="optBox" value="1"> Homem
-            <input type="radio" name="optBox" value="2"> Mulher
-            <input type="radio" name="optBox" value="3"> Sigma :) <br><br>
+            <h1>Você é:</h1>
+            <input type="radio" name="optBox" value="Homem"> Homem
+            <input type="radio" name="optBox" value="Mulher"> Mulher
+            <input type="radio" name="optBox" value="Sigma"> Sigma :) <br><br>
 
-            
+            selecione 1:
+            <select name="selLegal" value="0">
+                <option>Selecionar...</option>
+                <option>Eu sou a opção 1 hahaha!</option>
+                <option>Eu sou a 2 :(</option>
+            </select>
+
+            <input type="submit" value="Enviar">
         </form>
     </body>
 
