@@ -1,5 +1,25 @@
 <?php
 
+    //VERIFICANDO SE TODOS OS CAMPOS FORAM PREENCHIDOS
+    //Empty: verifica se determinada string está vazia
+    if(empty($_POST['opt'])){
+        echo "Você não selecionou nenhuma opção, por favor, selecione.";
+        exit;
+    }
+    else{ 
+        if(empty($_POST['N1']) && $_POST['N1'] != 0){
+            echo "Você não digitou o número 1, digite >:(";
+            exit;
+        }
+        else {
+            if(empty($_POST['N2']) && $_POST['N2'] != 0){
+                echo "Você não digitou o número 2, digite >:(";
+                exit;
+            }
+            else{}
+        }
+    }
+
     $opc = $_POST['opt'];
     $n1 = $_POST['N1'];
     $n2 = $_POST['N2'];
