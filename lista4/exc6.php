@@ -1,6 +1,6 @@
 <?php
 
-    //Já que o exercício não pediu, irei considerar que a pessoa dihitou os dados corretamente
+    //Já que o exercício não pediu, irei considerar que a pessoa digitou os dados corretamente
     //então não verificarei se há algo errado com eles
 
     $nome = $_POST['txtNome'];
