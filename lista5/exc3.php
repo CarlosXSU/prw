@@ -3,8 +3,8 @@
     $user = $_POST['txtUser'];
     $password = $_POST['txtPass'];
 
-    $users = array("FeliPinho123*", "RobinhoOo", "André");
-    $passwords = array("12345", "PHP prova :(", "S4turn0");
+    $users = array('FeliPinho123*', 'RobinhoOo', 'André');
+    $passwords = array('12345', 'PHP prova :(', 'S4turn0');
 
     $indice = array_search($user, $users);
 
