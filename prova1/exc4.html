@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <title>Exc3 da prova</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <h1> Digite os valores abaixo!</h1>
+
+        <form method="post" action="exc4.php">
+
+            Digite o seu nome: <input type="text" name="txtNome" placeholder="digite aqui..."><br>
+            Digite o seu CPF: <input type="text" name="txtCpf" placeholder="digite aqui..."><br>
+            Digite o seu RG: <input type="text" name="txtRg" placeholder="digite aqui..."><br><br>
+
+            Qual o seu estado: <select name="selEstado">
+                <option>SP</option>
+                <option>RJ</option>
+                <option>MG</option>
+                <option>SC</option>
+            </select><br><br>
+
+            Você é:
+            <input type="radio" name="optSEX" value="Homem"> Homem
+            <input type="radio" name="optSEX" value="Mulher"> Mulher 
+            <input type="radio" name="optSEX" value="Sigma"> Sigma<br><br>
+
+            Digite o saldo do cartão: <input type="text" name="txtSald" value="0"><br>
+            Digite o preço total da compra: <input type="text" name="txtTotal" value="0"><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+
+</html>
