@@ -1,6 +1,5 @@
 <?php
-    //Resolvendo apenas os problemas que o exercício destacou
-
+ 
     $pasta = $_POST['selPas'];
     $img = $_POST['selImg'];
 
