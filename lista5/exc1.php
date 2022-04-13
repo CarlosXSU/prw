@@ -1,7 +1,7 @@
 <?php 
 
     $produto = $_POST['txtProp'];
-    $produtos = array("faca","console","computador","jogo");
+    $produtos = array('faca','console','computador','jogo');
     $produto = strtolower($produto); //Deixando igual Jogos, Jogos, jogos, joGos...
 
     $indice = array_search($produto, $produtos);
