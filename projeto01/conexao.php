@@ -10,5 +10,5 @@
         printf("Erro ao concetar ao banco de dados ", mysqli_connect_error());
         exit;
     }
-    printf("Banco de dados concetado com sucesso!") 
+    printf("Banco de dados conectado com sucesso!") 
 ?>
