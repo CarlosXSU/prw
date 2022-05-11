@@ -1,8 +1,8 @@
 -- Carlos Canabarra
 
-create database Lista5;
+create database Lista6;
 
-use Lista5;
+use Lista6;
 
 create table agenda (
 	id_agenda 	int 		not null auto_increment,
