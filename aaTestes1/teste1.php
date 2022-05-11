@@ -1,5 +1,6 @@
 <?php
 
+    //teste
     echo substr("Hello world",6). "<br><br>";
 
     echo substr("Hello world",10)."<br>";
