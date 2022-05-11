@@ -65,7 +65,7 @@
             <h1>Alteração de usuário - IFSP</h1>
         </header>
 
-        <form method="post" action="cadastro_usuario.php">
+        <form method="post" action="altera_usuario_exe.php">
 
             <div class="container">
                 <table id="tabela" align="center">
@@ -81,6 +81,10 @@
                     <tr>
                         <td><input id="botao" type="submit" value="Enviar"></td>
                     </tr>
+                    <tr>
+                        <input name="id_usuario" type="hidden" value="<?php echo $row['id_usuario']?>">
+                    </tr>
+                
                 </table>
             </div>
         </form>
