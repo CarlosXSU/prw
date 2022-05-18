@@ -12,7 +12,7 @@
     <div id="menu">
         <ul>
             <li><a href="pags/cadastro_agenda.html"> Cadastrar nova agenda</a></li>
-            <li><a href="listar_agenda.php"> Listar agendas cadastradas</a></li>
+            <li><a href="pags/listar_agenda.php"> Listar agendas cadastradas</a></li>
         </ul>
     </div> 
 </body>
