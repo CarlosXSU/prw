@@ -33,3 +33,4 @@
         echo "<br><br>Erro ao inserir a banco de dados: ".mysqli_error($con);
     }
 ?>
+<a href='../index.php'> Voltar...</a>
