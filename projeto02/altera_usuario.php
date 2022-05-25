@@ -56,6 +56,13 @@
                border-style: solid;
                border-color: black;
             }
+            .center{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 150px;
+                height: 150px;
+            }
         </style>
     </head>
 
@@ -65,7 +72,9 @@
             <h1>Alteração de usuário - IFSP</h1>
         </header>
 
-        <form method="post" action="altera_usuario_exe.php">
+        <?php echo "<img class='center' src='data:image/jpeg;base64,".base64_encode( $row["foto_blob"] )."' align='center' width='150' height='150'/>"; ?>  
+
+        <form method="post" action="altera_usuario_exe.php" enctype="multipart/form-data">
 
             <div class="container">
                 <table id="tabela" align="center">
@@ -77,6 +86,9 @@
                     </tr>
                     <tr>
                         <td><p>Telefone:</p> <input id="tel" type="text" name="tel" value="<?php echo $row['telefone_usuario']?>"  size="30" style="width: 15vh;"><br></td>
+                    </tr>
+                    <tr>
+                        <td><p>Foto:</p> <input type="file" id="foto" name="foto" accept="image/*" />
                     </tr>
                     <tr>
                         <td><input id="botao" type="submit" value="Enviar"></td>
