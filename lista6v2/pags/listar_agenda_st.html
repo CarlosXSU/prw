@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <title>Listagem de agendasV2</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../CSS/style.css">
+    </head>
+
+    <body>
+
+        <header class="center">
+            <h1>Listagem de agendas por estado - IFSP</h1>
+            <hr>
+        </header>
+
+        <div id="osvaldo" align="center">
+            <a href='../index.php' id="espaco"> voltar para a página anterior</a>
+        </div>
+
+        <form method="post" action="listar_agenda_st.php">
+
+            <div class="container2">
+                <div id="state_name">
+               <p>Selecione o estado que você deseja fazer a listagem: </p>
+                    <select name="estado">
+                        <option>AC</option>
+                        <option>AL</option>
+                        <option>AP</option>
+                        <option>AM</option>
+                        <option>BA</option>
+                        <option>CE</option>
+                        <option>DF</option>
+                        <option>ES</option>
+                        <option>GO</option>
+                        <option>MA</option>
+                        <option>MT</option>
+                        <option>MS</option>
+                        <option>MG</option>
+                        <option>PA</option>
+                        <option>PB</option>
+                        <option>PR</option>
+                        <option>PE</option>
+                        <option>PI</option>
+                        <option>RJ</option>
+                        <option>RN</option>
+                        <option>RS</option>
+                        <option>RO</option>
+                        <option>RR</option>
+                        <option>SC</option>
+                        <option>SP</option>
+                        <option>SE</option>
+                        <option>TO</option>
+                    </select><br>
+
+                    <input id="botao2" type="submit" value="Enviar">
+                </div>
+            </div>
+        </form>
+    </body>
+
+</html>

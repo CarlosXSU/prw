@@ -20,6 +20,7 @@
 <body class="center">
 
     <h1>Listagem de agendas!</h1><br>
+    <hr>
     <table align="center" border="1" width="900">
         <!-- tr>th*4 -->
         <tr>

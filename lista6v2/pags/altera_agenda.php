@@ -20,10 +20,9 @@
         <header class="center">
             <h1>Alteração de agendas - IFSP</h1>
         </header>
-
-        
+ 
         <?php echo "<img class='center2' src='data:image/jpeg;base64,".base64_encode( $row["foto_blob"] )."' align='center' width='150' height='150'/>"; ?>
-
+        
         <form method="post" action="altera_agenda_exe.php" enctype="multipart/form-data">
 
             <div class="container">

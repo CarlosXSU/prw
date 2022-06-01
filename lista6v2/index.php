@@ -9,10 +9,12 @@
 </head>
 <body>
     <h1 id="menu_text">Menu principal - Lista 6</h1>
+    <hr>
     <div id="menu">
         <ul>
             <li><a href="pags/cadastro_agenda.html"> Cadastrar nova agenda</a></li>
             <li><a href="pags/listar_agenda.php"> Listar agendas cadastradas</a></li>
+            <li><a href="pags/listar_agenda_st.html"> Listar agendas por estado</a></li>
         </ul>
     </div> 
 </body>

@@ -15,6 +15,10 @@
     margin-top: 1vh;
     margin-left: 14vh;
 }
+#botao2 {
+    width: 10vh;
+    margin-top: 1vh;
+}
 #osvaldo {
     padding-bottom: 5vh;
 }
@@ -25,6 +29,15 @@
 .container {
     width: 80vh;
     height: 44vh;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+.container2 {
+    width: 80vh;
+    height: 18vh;
     margin-left: auto;
     margin-right: auto;
     border: 1px;
@@ -56,4 +69,10 @@
     margin-bottom: 4vh;
     width: 150px;
     height: 150px;
+}
+#state_name{
+    position: relative;
+    text-align: center;
+    color: green;
+    margin-top: 4vh;
 }
