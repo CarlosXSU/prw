@@ -17,7 +17,7 @@
             <a href='../index.php' id="espaco"> voltar para a página anterior</a>
         </div>
 
-        <form method="post" action="cadastro_agenda.php">
+        <form method="post" action="cadastro_agenda.php" enctype="multipart/form-data">
 
             <div class="container">
                 <table class="position" align="center">
@@ -76,6 +76,9 @@
                     </tr>
                     <tr>
                         <td><p>Email:</p> <input type="text" name="email" size="70"><br></td>
+                    </tr>
+                    <tr>
+                        <td><p>Imagem:</p> <input type="file" id="foto" name="foto" accept="image/*"><br></td>
                     </tr>
                     <tr>
                         <td><input id="botao" type="submit" value="Enviar"></td>

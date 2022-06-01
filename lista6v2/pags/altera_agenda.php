@@ -21,7 +21,10 @@
             <h1>Alteração de agendas - IFSP</h1>
         </header>
 
-        <form method="post" action="altera_agenda_exe.php">
+        
+        <?php echo "<img class='center2' src='data:image/jpeg;base64,".base64_encode( $row["foto_blob"] )."' align='center' width='150' height='150'/>"; ?>
+
+        <form method="post" action="altera_agenda_exe.php" enctype="multipart/form-data">
 
             <div class="container">
                 <table class="position" align="center">
@@ -80,6 +83,9 @@
                     </tr>
                     <tr>
                         <td><p>Email:</p> <input type="text" value="<?php echo $row['email']?>" name="email" size="70"><br></td>
+                    </tr>
+                    <tr>
+                        <td><p>Imagem:</p> <input type="file" id="foto" name="foto" accept="image/*"><br></td>
                     </tr>
                     <tr>
                         <td><input id="botao" type="submit" value="Enviar"></td>

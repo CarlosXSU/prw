@@ -24,6 +24,7 @@
         <!-- tr>th*4 -->
         <tr>
             <th>Código</th>
+            <th>Foto</th>
             <th>Nome</th>
             <th>Apelido</th>
             <th>Endereço</th>
@@ -41,6 +42,7 @@
                 echo "<tr>";
                 $data = explode("-",$row['dt_cadastro']);
                 echo "<td>" .$row['id_agenda']. "</td>";
+                echo "<td><img src='data:image/jpeg;base64,".base64_encode( $row["foto_blob"] )."' width='150' height='150'/></td>";
                 echo "<td>" .$row['nome']. "</td>";
                 echo "<td>" .$row['apelido']. "</td>";
                 echo "<td>" .$row['endereco']. "</td>";
