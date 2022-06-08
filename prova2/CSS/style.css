@@ -1,4 +1,5 @@
 #menu_text {
+    color: rgb(86 99 247);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -10,6 +11,9 @@
     list-style: none;
     padding: 0;
 }
+#menu li {
+    margin-bottom: 2vh;
+}
 #botao {
     width: 10vh;
     margin-top: 1vh;
@@ -19,21 +23,39 @@
     width: 10vh;
     margin-top: 1vh;
 }
-#osvaldo {
+#pan {
     padding-bottom: 5vh;
 }
 .center h1 {
+    color: rgb(86 99 247);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 .container {
     width: 80vh;
-    height: 44vh;
+    height: 35vh;
     margin-left: auto;
     margin-right: auto;
     border: 1px;
     border-style: solid;
-    border-color: black;
+    border-color: rgb(86 99 247);
+}
+.container1-1 {
+    width: 100%;
+    min-height: 4vh;
+    border: 1px;
+    color: white;
+    font-size: 20px;
+    font-family: helvetica;
+    border-style: solid;
+    background-color: rgb(86 99 247);
+    border-color: rgb(86 99 247);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.container1-1 p {
+    margin-top: 2px;
+    padding: 0.5vh 0.5vw;
 }
 .container2 {
     width: 80vh;
@@ -51,7 +73,19 @@
     padding-top: 4vh;
 }
 .position p{
-    color: green;
+    color: rgb(86 99 247);
+    position: absolute;
+    margin:0;
+}
+#bopt {
+    margin-left: 10vh;
+    width: 2vh;
+}
+.position {
+    padding-top: 4vh;
+}
+.position p{
+    color: rgb(86 99 247);
     position: absolute;
     margin: 0;
 }
@@ -61,6 +95,9 @@
 }
 .position select{
     margin-left: 10vh;
+} 
+.position2 {
+    padding-top: 10vh;
 }
 .center2{
     display: block;
@@ -70,12 +107,6 @@
     width: 150px;
     height: 150px;
 }
-#state_name{
-    position: relative;
-    text-align: center;
-    color: green;
-    margin-top: 4vh;
-}
-#pand{
+.pand{
     padding-bottom: 5vh;
 }
